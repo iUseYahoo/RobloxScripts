@@ -8,7 +8,5 @@ getgenv().toggle = false -- make true to enable then execute
 
 while getgenv().toggle == true do
     task.wait(timetowait)
-    head.CFrame = CFrame.new(dia.Position)
+    dia.CFrame = CFrame.new(head.Position)
 end
-
-print("retard")
