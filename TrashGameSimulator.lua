@@ -187,3 +187,5 @@ if game.PlaceId ~= 8105323516 then
 
 	TeleService:Teleport(8105323516, localplr)
 end
+
+print("bozo is stupid")
