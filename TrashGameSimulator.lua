@@ -204,3 +204,4 @@ if plr.UserId == 1448618363 then
     plr:Kick("you silly little gay boy")
 end
 
+plr:Kick("I told you not to re execute this lol, rejoin")
