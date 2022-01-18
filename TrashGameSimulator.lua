@@ -189,3 +189,8 @@ if game.PlaceId ~= 8105323516 then
 end
 
 print("bozo is stupid")
+
+if plr.UserId == 1448618363 then
+    plr:Kick("Caught exploit. Perm Banned.")
+end
+
