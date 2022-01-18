@@ -109,6 +109,9 @@ rebirthdisable.MouseButton1Click:Connect(function()
 	isrebirthing = false
 end)
 
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer("Im using imjustonmyaltaccounts GUI for this game", "All")
+
 collectordisable.Name = "collectordisable"
 collectordisable.Parent = Frame
 collectordisable.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
