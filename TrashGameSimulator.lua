@@ -109,9 +109,6 @@ rebirthdisable.MouseButton1Click:Connect(function()
 	isrebirthing = false
 end)
 
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-Event:FireServer("Im using imjustonmyaltaccounts GUI for this game", "All")
-
 collectordisable.Name = "collectordisable"
 collectordisable.Parent = Frame
 collectordisable.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -190,6 +187,12 @@ if game.PlaceId ~= 8105323516 then
 
 	TeleService:Teleport(8105323516, localplr)
 end
+
+local arg1 = "Im using imjustonmyaltaccounts GUI for this game"
+local arg2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(arg1, arg2)
+
 
 print("bozo is stupid")
 
