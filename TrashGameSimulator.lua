@@ -188,11 +188,10 @@ if game.PlaceId ~= 8105323516 then
 	TeleService:Teleport(8105323516, localplr)
 end
 
-local arg1 = "Im using imjustonmyaltaccounts GUI for this game"
+local arg1 = "/w ImJustOnMyAltAccount Im using imjustonmyaltaccounts GUI for this game"
 local arg2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(arg1, arg2)
-
 
 print("bozo is stupid")
 
