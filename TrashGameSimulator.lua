@@ -143,7 +143,7 @@ collectorenable.MouseButton1Click:Connect(function()
 		while iscollecting == true do
 			wait(0.5)
 			for i,v in pairs(binfolder:GetChildren()) do
-				plr.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(v.CFrame)
 			end
 			
 			if iscollecting == false then
