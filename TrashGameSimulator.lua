@@ -143,7 +143,8 @@ collectorenable.MouseButton1Click:Connect(function()
 		while iscollecting == true do
 			wait(0.5)
 			for i,v in pairs(binfolder:GetChildren()) do
-				plr.Character.HumanoidRootPart.CFrame = CFrame.new(v.CFrame)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position)
+				v:Destroy()
 			end
 			
 			if iscollecting == false then
@@ -152,7 +153,7 @@ collectorenable.MouseButton1Click:Connect(function()
 			end
 
 			if game.Players.LocalPlayer.leaderstats.Trash.Value >= sellAt then
-				plr.Character.HumanoidRootPart.CFrame = CFrame.new(350.728302, 19.9869652, -172.921478, 1, -1.58614633e-08, -9.28188936e-14, 1.58614633e-08, 1, 3.33490355e-08, 9.22899317e-14, -3.33490355e-08, 1)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new()
 			end
 		end
 	end
