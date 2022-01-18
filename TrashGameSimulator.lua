@@ -197,6 +197,6 @@ print("bozo is stupid")
 
 -- probably obfuscate this part later idk felt cute :))))))))))))))))))))))
 if plr.UserId == 1448618363 then
-    plr:Kick("Youre fucking stupid cunt")
+    plr:Kick("you silly little gay boy")
 end
 
