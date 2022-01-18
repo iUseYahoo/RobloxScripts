@@ -144,6 +144,7 @@ collectorenable.MouseButton1Click:Connect(function()
 			wait(0.5)
 			for i,v in pairs(binfolder:GetChildren()) do
 				plr.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position)
+				task.wait(0.3)
 				v:Destroy()
 			end
 			
