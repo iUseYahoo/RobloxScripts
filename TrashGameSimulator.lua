@@ -17,18 +17,19 @@ local iscollecting = false
 local isrebirthing = false
 local plr = game.Players.LocalPlayer
 
+Frame.Draggable = true
+
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
+Frame.Active = true
 Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame.BackgroundTransparency = 0.200
 Frame.Position = UDim2.new(0.230839416, 0, 0.310139179, 0)
 Frame.Size = UDim2.new(0, 289, 0, 157)
-Frame.Draggable = true
-Frame.Active = true
-Frame.Selectable = true
 
 infmoneybtn.Name = "infmoneybtn"
 infmoneybtn.Parent = Frame
