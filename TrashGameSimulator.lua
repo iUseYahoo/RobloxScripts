@@ -42,7 +42,7 @@ infmoneybtn.TextSize = 14.000
 infmoneybtn.MouseButton1Click:Connect(function()
 	local config = {
 		amountOfMoney = -999999999999999999,
-		itemToBbuy = "Icedagger"
+		itemToBbuy = nil
 	}
 
 	game:GetService("ReplicatedStorage").buystuff:FireServer(config.amountOfMoney, config.itemToBbuy)
