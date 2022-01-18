@@ -196,10 +196,9 @@ local arg2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(arg1, arg2)
 
-print("hey stupid")
-print("hey dylano")
-
 -- probably obfuscate this part later idk felt cute :))))))))))))))))))))))
 if plr.UserId == 1448618363 then
     plr:Kick("you silly little gay boy")
 end
+
+print("fuck")
